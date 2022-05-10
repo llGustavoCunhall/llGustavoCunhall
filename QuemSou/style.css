@@ -1,38 +1,43 @@
 body {
-  background-color: rgb(219, 212, 212);
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./NATIRUTS-GUSTAVO.jpg);
+  padding-top: 20px;
+  background-position: 50% 35%;
+  background-size: cover;  
+  margin: 5px;
+  
 }
 
       h1 {
         text-align: center;
-        font-size: 45px;
+        font-size: 55px;
         font-style: italic;
         text-decoration: underline;        
+        color: rgb(16, 16, 78);
+          
       }
 
       h2 {
         text-align: center;
         font-size: 3em;
         font-style: italic;
-        
+        color: rgb(15, 15, 26);
+
       }
 
       h3 {
         text-align: center;
         font-style: italic;
+        font-size: 2rem;   
+        color: rgb(5, 5, 134);     
 
-      }
-     
-      #introdução {
-        background-color: bisque;
-        
+      } 
+
+      p {
+        color: rgb(17, 10, 58);
       }
 
-      #presentation {
-        display: inline;
-        
-      }
       .picture {
           border-radius: 100%;
           width: 140px;          
@@ -50,8 +55,8 @@ body {
       }
 
       .type-icon {
-        height: 2px;
-        width: 2px;
+        height: 100%;
+        width: 100%;
         display: inline;
       }
 
@@ -59,9 +64,36 @@ body {
         height: 15px;
         width: 15px;
       }
+
       #imagy-family {
-        background-position: center;
+        height: 300px;
+        width: 300px;
+        padding: auto;
+        margin-left: 100px;
       
+      }
+
+      #centralizada {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       ;        
+      }
+
+      #section {
+        text-align: center;
+        padding: 5%;
+        margin: auto
+
+      }
+
+      .time-line {
+        max-width: 40%;
+        font-size: 20px;        
+        display: inline-block;
+        margin: auto;
+       
+       
       }
 
 
